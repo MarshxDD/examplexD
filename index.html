@@ -71,6 +71,11 @@ https://templatemo.com/tm-550-diagoona
                             </p>
                         <h2 class="mb-4 tm-content-title">Or Send Us an Email</h2>
                         <form id="contact-form" action="https://formsubmit.co/info.saltganic@gmail.com" method="POST">
+                            <!-- Honeypot -->
+                            <input type="text" name="_honey" style="display: none;">
+
+                            <!-- Disable Captcha -->
+                            <input type="hidden" name="_captcha" value="false">
                             <div class="form-group mb-4">
                                 <input type="text" name="name" class="form-control" placeholder="Name" required="" />
                             </div>
